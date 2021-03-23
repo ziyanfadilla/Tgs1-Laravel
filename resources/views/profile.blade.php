@@ -27,34 +27,31 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <div class="container">
-          <h2><strong>INTRODUCE</strong></h2>
-          <a href="" type="btn" class="btn btn-primary" style="margin-top: 30px">Tambah Data</a>
-          <table class="table table-striped" style="margin-top: 20px; text-align: center">
-            <thead>
-              <tr style="">
-                <th scope="col">No</th>
-                <th scope="col">NIM</th>
-                <th scope="col">NAMA</th>
-                <th scope="col">KELAS</th>
-                <th scope="col">AKSI</th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>18090058</td>
-                <td>Ziyan Fadilla Saporette</td>
-                <td>6B</td>
-                <td>
-                    <a href="" type="btn" class="btn btn-warning">Ubah</a>
-                    <a href="" type="btn" class="btn btn-danger">Hapus</a>
-                </td>
-              </tr> 
-            </tbody>
-          </table>
-      </div>
+          <div class="container">
+            <div class="card mt-5">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="resources/views/img1.jpeg" style="width: 100%; height: auto; object-fit: cover">
+                    </div>
+                    <div class="col">
+                        <div class="card-block px-2">
+                            <h1 class="card-title ml-2">ZIYAN FADILLA</h1>
+                            <hr>
+                            <table class="table table-borderless">
+                              <tr>
+                                <td style="font-weight: bold">NIM</td>
+                                <td>18090058</td>
+                              </tr>
+                              <tr>
+                                <td style="font-weight: bold">KELAS</td>
+                                <td>6B</td>
+                              </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
